@@ -5,10 +5,10 @@ const { Pool } = require("pg");
 
 const app = express();
 const pool = new Pool({
-  user: 'postgres',         
+  user: 'your_username',         
   host: 'localhost',        // Host where PostgreSQL is running
   database: 'forms',        // Update the database name here
-  password: 'Vaish_os9',     // Your PostgreSQL password
+  password: 'your_password',     // Your PostgreSQL password
   port: 5432,               // Default PostgreSQL port
 });
 
